@@ -5,7 +5,9 @@
 This project allowed me to discover the Kalman filter, to implement it and to apply it while trying to understand the theory and mathematics behind it.  
 The Kalman filter is an algorithm that will try to **predict the estimates of various variables from noisy input data**. It will thus allow to **determine the state of a dynamic system**.
 
-![image](https://user-images.githubusercontent.com/105392989/177523777-ebd4157e-19f5-49cf-b1d2-9ebfd14e33dd.png)
+<div id="example" align = "center">
+  <img src="https://user-images.githubusercontent.com/105392989/177523777-ebd4157e-19f5-49cf-b1d2-9ebfd14e33dd.png" width="550">
+</div>
 
 This project was done in a school context with another classmate. The idea was to become familiar with **computer vision and image processing**, the scope and the subject were free. 
   
@@ -13,7 +15,9 @@ This project was done in a school context with another classmate. The idea was t
 
 This filter was developed by **Rudolf Emil Kalman** in the 60s. As mentioned in the introduction, this filter is an algorithm that will try to predict the state of a moving system.
 
-![image](https://user-images.githubusercontent.com/105392989/177523647-51424aa5-acbc-495d-aa0f-e6af896cce29.png)
+<div id="Rudolf Emil Kalman" align = "center">
+  <img src="https://user-images.githubusercontent.com/105392989/177523647-51424aa5-acbc-495d-aa0f-e6af896cce29.png" width="300">
+</div>
 
 It is an **iterative** process that takes into account the **incertia** and **variations** associated with the input data. This filter is split in **two parts** :
  
@@ -22,8 +26,11 @@ It is an **iterative** process that takes into account the **incertia** and **va
  
 This filter is used in many fields such as **geolocation** or **medical** with image reconstruction. We can of course apply this filter in a **one-dimensional** case and in a **multi-dimensional** case by extending the operations and the variables to a matrix representation. 
 
-![image](https://user-images.githubusercontent.com/105392989/177523866-af3d9f96-a8ba-49a1-9ffd-39a6dedc6bb3.png)
-![image](https://user-images.githubusercontent.com/105392989/177523881-dd1ddb61-cbd8-4129-bd6a-98fe3a3e9ff7.png)
+<div id="fields" align = "center">
+  <img src="https://user-images.githubusercontent.com/105392989/177523866-af3d9f96-a8ba-49a1-9ffd-39a6dedc6bb3.png" width="550">    
+  
+  <img src="https://user-images.githubusercontent.com/105392989/177523881-dd1ddb61-cbd8-4129-bd6a-98fe3a3e9ff7.png" width="550">
+</div>
 
 There are **three important** steps:
 
@@ -55,11 +62,15 @@ Concerning the perosnnes, we used an open source database directly extracted fro
   - Overlay or not
   - High illumination or not
   
-  ![image](https://user-images.githubusercontent.com/105392989/177523995-142a38cb-3c29-434f-801f-2de8648484c7.png)
+  <div id="video example" align = "center">
+    <img src="https://user-images.githubusercontent.com/105392989/177523995-142a38cb-3c29-434f-801f-2de8648484c7.png" width="550">
+  </div>
   
 When you download a video, you get a **succession of images** that will constitute the video during playback. Also, we have an associated text file which for each image will have **information on the people in particular their position to be able to identify them**.  
 
-![image](https://user-images.githubusercontent.com/105392989/177524037-7cc3b902-0262-4148-b8f3-20a6119bb972.png)
+<div id="txt file example" align = "center">
+    <img src="https://user-images.githubusercontent.com/105392989/177524037-7cc3b902-0262-4148-b8f3-20a6119bb972.png" width="550">
+</div>
 
 *Here, we have 8 persons that can be identified at frame n°584*
 
